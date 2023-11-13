@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Entidade</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.css">
+</head>
+<body>
+    <div class="content">
+        <aside>
+            <img src="assets/hero.svg" alt="">
+           <h1><span>We</span> Form</h1>
+        </aside>
+
+        <main>
+            <header>
+                <a href="index.html">
+                    <i class="fa-solid fa-angle-left"></i>
+                </a>
+
+                <h2>Nova <span>entidade</span></h2>
+            </header>
+
+            <form>
+                <label for="input-name">nome</label>
+                <input type="text" id="input-name">
+
+                <label for="input-field">campo de atuação</label>
+                <div class="select-div">
+                    <select id="input-field">
+                        <option value="" data-default disabled selected></option>
+                        <option value="abrigo">abrigo de animais</option>
+                        <option value="alimentacao">centro de alimentação</option>
+                    </select>
+                </div>
+                
+                <div class="points">
+                    <label for="points">pontos de coleta</label> 
+                    <input type="text" id="points">
+                    <button>
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </button>
+                </div>
+            </form>
+
+            <div class="actions">
+                <a href="#">Cadastrar</a>
+            </div>
+
+        </main>
+
+    </div>
+</body>
+</html>
